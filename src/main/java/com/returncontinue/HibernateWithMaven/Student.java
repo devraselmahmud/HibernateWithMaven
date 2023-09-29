@@ -17,7 +17,7 @@ public class Student {
 	@Column(length = 50, name = "student_id")
 	private int id;
 	
-	@Column(length = 50, name = "student_name")
+	@Column(length = 30, name = "student_name")
 	private String name;
 	
 	@Lob
